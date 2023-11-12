@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer {
+	visibility: hidden;
+	}
+
+footer:before {
+	content:'Made by Hendra ekky saputra'; 
+	visibility: visible;
+	display: block;
+	position: relative;
+	top: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
